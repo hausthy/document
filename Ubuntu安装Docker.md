@@ -10,11 +10,11 @@ $ sudo apt-get install docker-ce</br>
 在这里我遇到了错误E: Unable to locate package docker-ce
 有人在stack overflow给出答案
 
--sudo apt-get install apt-transport-https ca-certificates curl software-properties-common</br>
--curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</br>
--sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"</br>
--sudo apt-get update</br>
--sudo apt-get install docker-ce
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common</br>
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</br>
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"</br>
+sudo apt-get update</br>
+sudo apt-get install docker-ce
 
 ## 检测安装成功
 
