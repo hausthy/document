@@ -36,8 +36,10 @@ sudo ln -s /etc/consul/consul /bin/consul
     -syslog：开启系统日志功能，只在linux/osx上生效
     -pid-file:提供一个路径来存放pid文件，可以使用该文件进行SIGINT/SIGHUP(关闭/更新)agent
 
-启动consul服务端
+## 启动consul服务端
+
 consul agent -server -ui -bootstrap-expect=1 -data-dir=/data/consul -node=consul-2 -client=0.0.0.0 -bind=104.223.65.91 -datacenter=dc1
 
-启动consul客户端
+## 启动consul客户端
+
 consul agent -ui -data-dir=/data/consul -node=consul-1 -client=0.0.0.0 -bind=107.172.243.239 -datacenter=dc1 -join=104.223.65.91
