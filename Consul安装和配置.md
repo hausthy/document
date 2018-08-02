@@ -1,15 +1,19 @@
 # Consul安装和配置
 
-获取consul
+## 获取consul
+
 wget <https://releases.hashicorp.com/consul/1.2.0/consul_1.2.0_linux_amd64.zip>
 
-解压consul
+## 解压consul
+
 unzip consul_1.2.0_linux_amd64.zip -d /etc/consul
 
-软连接到环境变量
+## 软连接到环境变量
+
 sudo ln -s /etc/consul/consul /bin/consul
 
-consul的配置信息可以在文档-配置查看，其中部分选项如下：
+## consul的配置信息可以在文档-配置查看，其中部分选项如下:
+
     -advertise：通知展现地址用来改变我们给集群中的其他节点展现的地址，一般情况下-bind地址就是展现地址<br>
     -bootstrap：用来控制一个server是否在bootstrap模式，在一个datacenter中只能有一个server处于bootstrap模式，当一个server处于bootstrap模式时，可以自己选举为raft leader。<br>
     -bootstrap-expect：在一个datacenter中期望提供的server节点数目，当该值提供的时候，consul一直等到达到指定sever数目的时候才会引导整个集群，该标记不能和bootstrap公用<br>
