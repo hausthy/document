@@ -24,10 +24,10 @@ service mysql restart
 
 ## 登陆MySQL
 
--//先输入密码登陆
--mysql -root -p
-//然后选择数据库
--mysql>use mysql；
+//先输入密码登陆<br>
+mysql -root -p<br>
+//然后选择数据库<br>
+mysql>use mysql；<br>
 -//选择root的账户host改为%，上面2.3中已改地址，这一步不确定是否必要
 -mysql> update user set host='%' where user='root';
 -//授权
