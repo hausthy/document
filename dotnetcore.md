@@ -9,3 +9,5 @@ dotnetcore Microsoft.AspNetCore.Http相关源码： <https://github.com/aspnet/H
 dotnetcore Microsoft.AspNetCore.Cors相关源码： <https://github.com/aspnet/CORS/>
 
 dotnetcore Configuration相关源码：<https://github.com/aspnet/Configuration>
+
+dotnetcore  Microsoft.AspNetCore.Authentication: <https://github.com/aspnet/Security/>
