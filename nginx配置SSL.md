@@ -33,6 +33,21 @@
         }
     }
 
+## 强制http重定向到https
+
+ 将Nginx配置文件，http部分，配置为：
+
+    server {
+            listen 80;
+            server_name www.mydomain.com;
+
+            include /etc/nginx/snippets/letsencrypt.conf;
+
+            location / {
+                    return 301 https://www.mydomain.com$request_uri;
+            }
+    }
+
 ## 重新加载Nginx配置
 
     nginx -s reload
