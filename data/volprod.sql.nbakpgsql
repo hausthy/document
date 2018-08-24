@@ -1,0 +1,49 @@
+{
+    "Version": 1.0,
+    "General": {
+        "Project": "",
+        "ProjectOwnerNavicatID": "",
+        "Server": "PostgreSql",
+        "Host": "47.97.111.86",
+        "Catalog": "volprod",
+        "Schema": "public",
+        "Comment": "",
+        "ServerType": "PGSQL",
+        "SpecifiedFileName": "",
+        "IsLockTable": false,
+        "UseSingleTransaction": false,
+        "UseSpecifiedFileName": false
+    },
+    "Tables": {
+        "SelectAll": true,
+        "Selected": []
+    },
+    "Views": {
+        "SelectAll": false,
+        "Selected": []
+    },
+    "Functions": {
+        "SelectAll": false,
+        "Selected": []
+    },
+    "Events": {
+        "SelectAll": false,
+        "Selected": []
+    },
+    "Sequences": {
+        "SelectAll": true,
+        "Selected": []
+    },
+    "Types": {
+        "SelectAll": false,
+        "Selected": []
+    },
+    "Indexes": {
+        "SelectAll": false,
+        "Selected": []
+    },
+    "Triggers": {
+        "SelectAll": false,
+        "Selected": []
+    }
+}
