@@ -1,4 +1,4 @@
-# dotnetcore
+# dotnetcore 资源
 
 dotnetcore Mvc源码：<https://github.com/aspnet/Mvc>
 
